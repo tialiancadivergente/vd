@@ -239,7 +239,7 @@ export default function HeroSection({
 							(e.currentTarget.style.background =
 								"radial-gradient(50% 75.61% at 50% 50%, #7AD783 0%, #32A43D 100%)")
 						}
-						onClick={() => window.open("https://aliancadivergente.pro.typeform.com/to/kP8WPQBb", "_blank")}
+						onClick={() => window.open("https://aliancadivergentead.typeform.com/to/Pg9BDDP3", "_blank")}
 					>
 						PREENCHER FICHA DE INTERESSE
 					</button>

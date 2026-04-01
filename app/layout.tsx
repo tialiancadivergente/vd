@@ -3,7 +3,6 @@ import type { Metadata } from "next"
 import './globals.css'
 import { Spectral, Bebas_Neue, Roboto, Raleway, Mulish } from 'next/font/google'
 import "./globals.css"
-import GoogleTagManager from "./components/GoogleTagManager"
 import MicrosoftClarity from "./components/MicrosoftClarity"
 import AliancaTrackingScript from "./components/AliancaTrackingScript"
 import Providers from "./providers"
@@ -71,7 +70,6 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/cropped-Alianca-Divergente-Logotipo-Favicon-32x32.png" type="image/png" />
       </head>
       <body className={`${spectral.className} ${spectral.variable} ${bebasNeue.variable} ${roboto.variable} ${raleway.variable} ${mulish.variable}`}>
-        <GoogleTagManager />
         <MicrosoftClarity />
         <AliancaTrackingScript />
         <Providers>{children}</Providers>
